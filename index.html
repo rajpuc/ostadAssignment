@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirohige Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav class="position-relative">
+        <input class="d-none" type="checkbox" id="small">
+        <div class="shadow-sm py-4 rounded-bottom-3 small-dropdown px-4 d-flex flex-column  gap2">
+            <ul class="m-0  list-unstyled p-0 h-100  d-flex flex-column   gap2">
+                <li class="">
+                    <a class=" fs1 transition1 fc2" href="#">Home</a>
+                </li>
+                <li class="">
+                    <a class=" fs1 transition1 fc3" href="#">Portfolio</a>
+                </li>
+                <li class="">
+                    <a class=" fs1 transition1 fc3" href="#">About me</a>
+                </li>
+                <li class="">
+                    <a class=" fs1 transition1 fc3" href="#">Testimonials</a>
+                </li>
+            </ul>
+            <a class="custom-btn px-4 py-2 rounded-2 transition1 fit-content" href="">Contact Me</a>
+        </div>
+        <div
+            class="position-sticky top-0 bgc1 container-fluid d-flex justify-content-between align-items-center  py-2 px-4">
+            <div class="logo-container  d-flex justify-content-between align-items-center ">
+                <a class="logo d-flex " href="#">
+                    <img src="./assets/Logo.png" alt="">
+                </a>
+                <div class="collapse-btn d-flex d-md-none align-items-center">
+                    <label for="small">
+                        <i class="bi bi-list fs2 d-flex"></i>
+                    </label>
+                </div>
+            </div>
+
+            <ul class="m-0 d-none list-unstyled p-0 h-100 align-items-center  d-md-flex gap1">
+                <li class="">
+                    <a class=" fs1 transition1 fc2" href="#">Home</a>
+                </li>
+                <li class="">
+                    <a class=" fs1 transition1 fc3" href="#">Portfolio</a>
+                </li>
+                <li class="">
+                    <a class=" fs1 transition1 fc3" href="#">About me</a>
+                </li>
+                <li class="">
+                    <a class=" fs1 transition1 fc3" href="#">Testimonials</a>
+                </li>
+            </ul>
+            <a class="custom-btn px-4 py-2 rounded-2 transition1 d-none d-md-block" href="">Contact Me</a>
+        </div>
+
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section Start -->
+    <section class=" hero-section container-fluid bgc4 py-5 w-100">
+        <div class="w-100 d-flex align-items-center px-4">
+            <div class="left w-50">
+                <p class="fs1">Hey, I am John</p>
+                <h1 class="heading-fs2 mb-2">I create <span class="fc2">product design</span> and brand experience</h1>
+                <p class="w-75 green mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                    enim in eros elementum tristique.</p>
+                <a class="custom-btn cursor-pointer px-3 py-3 bgc2 fc1 rounded-2">Get in Touch</a>
+            </div>
+            <div class="right w-50">
+                <img src="./assets/profilepic.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Expertise Section Start -->
+    <section class="expertise-section container-fluid py-5 w-100">
+        <div class="py-5 px-4">
+
+            <p class="fs1">My Skills</p>
+            <h1 class="heading-fs2 mb-5">My Expertise</h1>
+            <div class="card-container d-flex  flex-wrap gap3">
+                <div class="card bgc4 " style="width: 18rem;">
+                    <img src="./assets/expertise1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title heading-fs3">Strategy & Direction</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                            enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+                <div class="card bgc4" style="width: 18rem;">
+                    <img src="./assets/expertise2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title heading-fs3">Branding & Logo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                            enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+                <div class="card bgc4" style="width: 18rem;">
+                    <img src="./assets/expertise3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title heading-fs3">UI & UX Design</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                            enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+                <div class="card bgc4" style="width: 18rem;">
+                    <img src="./assets/expertise4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title heading-fs3">Webflow Development</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                            enim in eros elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Expertise Section End -->
+
+    <!-- About Section Start -->
+    <section class="about-section hero-section container-fluid py-5 w-100">
+        <div class="w-100 d-flex gap1 align-items-center px-4 ">
+            <div class="right  w-50 px-5">
+                <img src="./assets/profilepic2.png" alt="">
+            </div>
+            <div class="left w-50">
+                <p class="fs1">Hey, I am John</p>
+                <h1 class="heading-fs2 mb-4">About Me</h1>
+                <p class=" green mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus
+                    massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis
+                    duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.</p>
+                <p class=" green ">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo
+                    vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Project Section Start -->
+    <div class="project-section container-fluid py-5 w-100">
+        <div class="px-4">
+            <div class="project-up d-flex justify-content-between align-items-center pb-4">
+                <div class="project-left">
+                    <p class="fs1">Recent Projects</p>
+                    <h1 class="heading-fs2">My Portfolio</h1>
+                </div>
+                <div class="project-right">
+                    <a href=""
+                        class="custom-btn d-flex align-items-center fit-content  bgc5 fc1 deribble rounded-2 gap-2">
+                        <img class="d-flex" src="./assets/world.svg " alt="">
+                        <span>Visit My Dribbble</span>
+                    </a>
+                </div>
+            </div>
+            <div class="project-down row">
+
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card ">
+                        <img class="w-100" src="./assets/websiteone.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title heading-fs3">Ahuse</h5>
+                            <p class="card-text fs0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros.</p>
+                            <a href="#"
+                                class=" card-btn d-flex align-items-center gap-1 border-bottom border-1 pb-1 border-secondary fit-content">
+                                <span class="fs0 text-black fw-bold">View In Dribbble</span> <img
+                                    src="./assets/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col col-md-4 mb-4">
+                    <div class="card  ">
+                        <img class="w-100" src="./assets/websitetwo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title heading-fs3">App Dashboard</h5>
+                            <p class="card-text fs0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros.</p>
+                            <a href="#"
+                                class=" card-btn d-flex align-items-center gap-1 border-bottom border-1 pb-1 border-secondary fit-content">
+                                <span class="fs0 text-black fw-bold">View In Dribbble</span> <img
+                                    src="./assets/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 mb-4">
+                    <div class="card  ">
+                        <img class="w-100" src="./assets/websitethree.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title heading-fs3">Easy Rent</h5>
+                            <p class="card-text fs0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros.</p>
+                            <a href="#"
+                                class=" card-btn d-flex align-items-center gap-1 border-bottom border-1 pb-1 border-secondary fit-content">
+                                <span class="fs0 text-black fw-bold">View In Dribbble</span> <img
+                                    src="./assets/arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project Section End -->
+
+    <!-- Testimonial section start -->
+    <section class="testimonial">
+        <div class="project-section container-fluid py-5 w-100">
+            <div class="px-4">
+                <div class="project-up d-flex justify-content-between align-items-center pb-4">
+                    <div class="project-left">
+                        <p class="fs1">Clients Feedback</p>
+                        <h1 class="heading-fs2">Customer testimonials</h1>
+                    </div>
+                </div>
+                <div class="project-down row">
+
+                    <div class="col-12 col-sm-6 col-md-4 mb-4 ">
+                        <div class="card p-2 bgc4">
+
+                            <div class="card-body ">
+                                <div class="star-container mb-3 ">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+
+                                <p class="card-text mb-3 fs0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+                                </p>
+                                <div class="profile-container d-flex align-items-center gap-3">
+                                    <img src="./assets/smallimageone.png" alt="">
+                                    <div class="d-flex  flex-column ">
+                                        <h5 class="fs0 p-0 m-0">Dianne Russell</h5>
+                                        <p class="fs0 p-0 m-0">Starbucks</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="card p-2 bgc4">
+
+                            <div class="card-body ">
+                                <div class="star-container mb-3 ">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+
+                                <p class="card-text mb-3 fs0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+                                </p>
+                                <div class="profile-container d-flex align-items-center gap-3">
+                                    <img src="./assets/smallimagetwo.png" alt="">
+                                    <div class="d-flex  flex-column ">
+                                        <h5 class="fs0 p-0 m-0">Kristin Watson</h5>
+                                        <p class="fs0 p-0 m-0">Louis Vuitton</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="card p-2 bgc4">
+
+                            <div class="card-body ">
+                                <div class="star-container mb-3 ">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                    <img src="./assets/star.svg" alt="">
+                                </div>
+
+                                <p class="card-text mb-3 fs0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+                                </p>
+                                <div class="profile-container d-flex align-items-center gap-3">
+                                    <img src="./assets/smallimagethree.png" alt="">
+                                    <div class="d-flex  flex-column ">
+                                        <h5 class="fs0 p-0 m-0">Kathryn Murphy</h5>
+                                        <p class="fs0 p-0 m-0">McDonald's</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact-section">
+        <div class="container-fluid px-4">
+            <p class="fs1  text-center"> Get In Touch</p>
+            <h1 class="heading-fs2 text-center">Contact me</h1>
+            <p class="fs1  text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <div class="row">
+                <form class="row g-3 col-lg-9 m-auto">
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label fs0">First Name</label>
+                        <input type="text" class="form-control focus-border shadow-none border border-1 border-black"
+                            id="firstName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label fs0">Last name</label>
+                        <input type="text" class="form-control focus-border shadow-none border border-1 border-black"
+                            id="lastName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label fs0">Email</label>
+                        <input type="email" class="form-control focus-border shadow-none border border-1 border-black"
+                            id="email">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phn" class="form-label fs0">Phone Number</label>
+                        <input type="number" class="form-control focus-border shadow-none border border-1 border-black"
+                            id="phn">
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="inputState fs0" class="form-label">Choose a topic</label>
+                        <select id="inputState"
+                            class="form-select focus-border shadow-none border border-1 border-black">
+                            <option selected>Select one...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="exampleFormControlTextarea1" class="form-label fs0">Example textarea</label>
+                        <textarea class="form-control focus-border shadow-none border border-1 border-black"
+                            id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input focus-border shadow-none border border-1 border-black"
+                                type="checkbox" id="gridCheck">
+                            <label class="form-check-label fs0" for="gridCheck">
+                                Check me out
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn bgc2 fc1 px-4">Submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+
+    <!-- Footer Section Start -->
+    <footer class="footer px-4 bgc4 mt-5 py-5">
+        <div class="footerup">
+            <div class="footer-wrapper container-fluid d-flex flex-column flex-md-row gap-1 align-items-md-center justify-content-md-between  py-2 ">
+           
+                <img class="footer-logo" src="./assets/Logo.png" alt="">
+               
+
+                <ul class="m-0  list-unstyled p-0 h-100 flex-md-row gap1  d-flex  flex-column gap2">
+                    <li class="">
+                        <a class=" fs1 transition1 fc2" href="#">Home</a>
+                    </li>
+                    <li class="">
+                        <a class=" fs1 transition1 fc3" href="#">Portfolio</a>
+                    </li>
+                    <li class="">
+                        <a class=" fs1 transition1 fc3" href="#">About me</a>
+                    </li>
+                    <li class="">
+                        <a class=" fs1 transition1 fc3" href="#">Testimonials</a>
+                    </li>
+                </ul>
+
+                <ul class="m-0 footer-link list-unstyled p-0 h-100  align-items-center  d-flex gap-2">
+                    <li class="">
+                        <a class="g fs1 transition1 fc2 p-0 m-0" href="#"><img  class="d-flex"  src="./assets/Facebook.svg" alt=""></a>
+                    </li>
+                    <li class="">
+                        <a class="g fs1 transition1 fc3" href="#"><img  class="d-flex" src="./assets/Instagram.svg" alt=""></a>
+                    </li>
+                    <li class="">
+                        <a class=" fs1 transition1 fc3" href="#"><img class="d-flex"  src="./assets/twitter.png" alt=""></a>
+                    </li>
+                    <li class="">
+                        <a class=" fs1 transition1 fc3" href="#"><img  class="d-flex" src="./assets/linkedin.svg" alt=""></a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="separator my-4"></div>
+        <div class="footerdown d-flex gap4 flex-sm-row  flex-wrap justify-content-between py-2">
+            <div class="fs0 fw-medium ">Made with 💖 by Rajesh Paul</div>
+            <div class="d-flex flex-wrap gap3">
+                <p class="fs0 fw-medium cursor-pointer">Privacy Policy</p>
+                <p class="fs0 fw-medium cursor-pointer" >Terms of Service</p>
+                <p class="fs0 fw-medium cursor-pointer">Cookies Settings</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
